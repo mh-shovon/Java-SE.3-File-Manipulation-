@@ -1,1 +1,11 @@
-{"Designation":"Software Engineer","Department":"IT","address":{"Area":"Gulshan-1","Present_Address":"Badda,Gulshan-1","PO":"Gulshan"},"name":"Mr. Shajib","Phone_Number":"01789000522"}
+{
+  "Designation": "Software Engineer",
+  "Department": "IT",
+  "address": {
+    "Area": "Gulshan-1",
+    "Present_Address": "Badda,Gulshan-1",
+    "PO": "Gulshan"
+  },
+  "name": "Mehedi Hasan Shovon",
+  "Phone_Number": "01789000522"
+}
