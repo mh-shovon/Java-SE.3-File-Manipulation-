@@ -37,5 +37,24 @@ public class Json_Manipulation_Write {
         Object obj = jsonParser.parse(new FileReader("./src/main/resources/Employee.json"));
         JSONObject EmployeeObj = (JSONObject) obj;
         System.out.println(EmployeeObj);
+
+        String name = (String) EmployeeObj.get("name");
+        System.out.println(name);
+        String department = (String) EmployeeObj.get("Department");
+        System.out.println(department);
+        String designation = (String) EmployeeObj.get("Designation");
+        System.out.println(designation);
+
+        JSONObject addressObj = (JSONObject) EmployeeObj.get("address");
+        String area=(String) addressObj.get("Area");
+        System.out.println(area);
+        String po=(String) addressObj.get("PO");
+        System.out.println(po);
+        String present_address=(String) addressObj.get("Present_Address");
+        System.out.println(present_address);
+
+        String phone_number = (String) EmployeeObj.get("Phone_Number");
+        System.out.println(phone_number);
+
     }
 }
